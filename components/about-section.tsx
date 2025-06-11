@@ -58,25 +58,21 @@ export function AboutSection() {
               <div className="overflow-hidden">
                 <TextReveal delay={0.2}>
                   <p className="text-lg text-white/80 leading-relaxed backdrop-blur-sm bg-white/5 p-8 rounded-2xl border border-white/10">
-                    I'm a passionate Computer Science student at Rajiv Gandhi University of Knowledge Technologies, with
-                    a deep fascination for the intersection of web development and artificial intelligence.
+                    I enjoy turning ideas into interactive, intelligent applications from building sleek frontends to integrating smart AI features that enhance user experience.
                   </p>
                 </TextReveal>
               </div>
               <div className="overflow-hidden">
                 <TextReveal delay={0.3}>
                   <p className="text-lg text-white/80 leading-relaxed backdrop-blur-sm bg-white/5 p-8 rounded-2xl border border-white/10">
-                    My journey in tech has led me to work with cutting-edge technologies like React, Next.js, and
-                    various AI/ML frameworks. I believe in creating digital experiences that not only look beautiful but
-                    also solve real-world problems.
+                    I’ve worked with frameworks like React, Next.js, and AI tools including LangChain and Hugging Face, crafting digital experiences that are both intuitive and intelligent.
                   </p>
                 </TextReveal>
               </div>
               <div className="overflow-hidden">
                 <TextReveal delay={0.4}>
                   <p className="text-lg text-white/80 leading-relaxed backdrop-blur-sm bg-white/5 p-8 rounded-2xl border border-white/10">
-                    When I'm not coding, you'll find me exploring the latest developments in generative AI, contributing
-                    to open-source projects, or mentoring fellow developers in the community.
+                    When I’m not coding, you’ll find me following the latest in Generative AI, contributing to open-source, or helping others grow in the tech community.
                   </p>
                 </TextReveal>
               </div>

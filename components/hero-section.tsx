@@ -82,8 +82,8 @@ export function HeroSection() {
         <div className="overflow-hidden mb-16">
           <TextReveal delay={1.4}>
             <p className="text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
-              Passionate about creating innovative web experiences with modern technologies. Specializing in React,
-              Next.js, and AI-powered applications that shape the future of technology.
+              A Computer Science student at RGUKT Basar, passionate about combining web development with Generative AI and Machine Learning. 
+              I specialize in React, Next.js, and building AI-powered applications that create real-world impact.
             </p>
           </TextReveal>
         </div>
@@ -99,7 +99,7 @@ export function HeroSection() {
             size="lg"
             className="bg-blue-500 hover:bg-blue-600 text-white px-10 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
             data-cursor="hover"
-            onClick={() => window.open('/files/nilesh_resume.pdf', '_blank')}
+            onClick={() => window.open('/files/nilesh_resume_.pdf', '_blank')}
           >
             <Download className="mr-2" size={20} />
             Download Resume
@@ -128,7 +128,7 @@ export function HeroSection() {
         >
           {[
             { icon: Github, href: "https://github.com/nileshsn", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/enugandhula-nilesh", label: "LinkedIn" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/enugandhula-nilesh-400a14226/", label: "LinkedIn" },
             { icon: Phone, href: "tel:+918143119364", label: "Phone" },
             { icon: Mail, href: "mailto:nileshenugandhula@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }, i) => (

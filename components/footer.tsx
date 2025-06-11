@@ -22,7 +22,7 @@ export function Footer() {
             <div className="overflow-hidden">
               <TextReveal delay={0.1}>
                 <p className="text-white/70">
-                  Frontend Developer & AI Enthusiast creating innovative web experiences with modern technologies.
+                  Empowering digital innovation through clean UI design, robust architecture, and AI-driven functionality.
                 </p>
               </TextReveal>
             </div>

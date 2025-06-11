@@ -12,13 +12,41 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Nilesh Enugandhula - Frontend Developer & AI Enthusiast",
-  description:
-    "Portfolio of Nilesh Enugandhula - A passionate frontend developer specializing in React, Next.js, and AI-powered applications.",
-  keywords: "frontend developer, react, nextjs, ai, machine learning, web development, portfolio",
-  authors: [{ name: "Nilesh Enugandhula" }],
-  creator: "Nilesh Enugandhula",
-    generator: 'v0.dev'
+  title: "Nilesh Enugandhula | Portfolio",
+  description: "Frontend Developer Portfolio",
+  icons: {
+    icon: [
+      {
+        url: "/icons/favicon.ico",
+        sizes: "any",
+      },
+      {
+        url: "/icons/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "/icons/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/icons/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/icons/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: {
+      url: "/icons/apple-touch-icon.png",
+      sizes: "180x180",
+      type: "image/png",
+    },
+  },
 }
 
 export default function RootLayout({

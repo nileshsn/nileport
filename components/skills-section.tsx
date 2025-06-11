@@ -11,7 +11,7 @@ const skillCategories = [
     skills: [
       { name: "React.js", level: 90 },
       { name: "Next.js", level: 85 },
-      { name: "TypeScript", level: 80 },
+      { name: "TypeScript", level: 75 },
       { name: "Tailwind CSS", level: 95 },
       { name: "Framer Motion", level: 75 },
     ],
@@ -20,19 +20,22 @@ const skillCategories = [
     title: "Backend & Database",
     skills: [
       { name: "Node.js", level: 75 },
-      { name: "Python", level: 85 },
-      { name: "SQL", level: 70 },
+      { name: "Express.js", level: 70 },
+      { name: "FastAPI", level: 65 },
+      { name: "SQL", level: 80 },
       { name: "MongoDB", level: 65 },
+      { name: "Firebase", level: 70 },
     ],
   },
   {
     title: "AI & Machine Learning",
     skills: [
+      { name: "Python", level: 80 },
       { name: "Generative AI", level: 85 },
+      { name: "LLMs and NLP", level: 80 },
       { name: "Hugging Face", level: 75 },
       { name: "LangChain", level: 80 },
       { name: "Streamlit", level: 90 },
-      { name: "Computer Vision", level: 60 },
     ],
   },
   {
@@ -40,6 +43,8 @@ const skillCategories = [
     skills: [
       { name: "Git/GitHub", level: 90 },
       { name: "VS Code", level: 95 },
+      { name: "Postman", level: 80 },
+      { name: "Google Colab", level: 85 },
       { name: "Figma", level: 70 },
       { name: "Google Cloud", level: 65 },
     ],
